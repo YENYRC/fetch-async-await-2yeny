@@ -1,24 +1,24 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Pokedex</title>
+<meta charset="UTF-8">
+<title>Pokédex</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <img src="./assets/img/Pokemon_logo.svg.png" alt="Pokemon" class="poke-logo">
-    </header>
 
-    <input type="text" id="searchInput" placeholder="Search Pokemon">
-    <button id="searchBtn">Search</button>
-    <button id="prevBtn">Previous</button>
-    <button id="nextBtn">Next</button>
-    <button id="resetBtn">Reset</button>
-    <div id="app"></div>
+<h1>Pokédex</h1>
 
-    <script src="./js/script.js"></script>
+<input type="text" id="search" placeholder="Buscar Pokémon..." />
+<button id="btnBuscar">Buscar</button>
+
+<div id="pokemonContainer"></div>
+
+<div class="buttons">
+<button id="prev">Anterior</button>
+<button id="next">Siguiente</button>
+</div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
